@@ -14,3 +14,5 @@ listaDeDestinos.push(`Curitiba`); //add itens na lista
 listaDeDestinos.splice(1,1); //deletar itens da lista
 console.log(listaDeDestinos);
 console.log(listaDeDestinos[2]); //pesquisar item especifico []
+
+
