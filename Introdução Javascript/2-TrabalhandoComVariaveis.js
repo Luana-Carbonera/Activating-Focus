@@ -22,3 +22,35 @@ const novaOp = numberFloat * numberFloatSemZero;
 console.log(novaOp);
 
 // tipo String
+
+const texto1 = "Olá, mundo!";
+const texto2 = "34567";
+const citacao = "ele disse 'oi!'";
+const meuNome = "Luana";
+console.log(citacao);
+
+// concatenação (+)
+
+console.log(citacao + meuNome);
+
+const cifrao = '\u0024';
+const aMaiusculo = '\u0041';
+const tique = '\u2705';
+const hiragana = '\u3041';
+
+console.log(cifrao);
+console.log(aMaiusculo);
+console.log(tique);
+console.log(hiragana);
+
+const cidade = "belo horizonte";
+const input = "Belo Horizonte";
+
+console.log(cidade === input); // false
+
+const inputMinusculo = input.toLowerCase();
+
+console.log(cidade === inputMinusculo); // true
+
+const senha = "minhaSenha123"
+console.log(senha.length) // 13 caracteres
