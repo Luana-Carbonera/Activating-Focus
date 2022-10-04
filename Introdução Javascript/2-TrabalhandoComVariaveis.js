@@ -54,3 +54,8 @@ console.log(cidade === inputMinusculo); // true
 
 const senha = "minhaSenha123"
 console.log(senha.length) // 13 caracteres
+
+// tipo boolean
+
+console.log(primeiroNumero === segundoNumero);
+console.log(texto1 === texto2)
