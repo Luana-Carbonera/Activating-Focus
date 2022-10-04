@@ -59,3 +59,31 @@ console.log(senha.length) // 13 caracteres
 
 console.log(primeiroNumero === segundoNumero);
 console.log(texto1 === texto2)
+
+// case sensitive
+
+const minhaVar = 1;
+const MinhaVar = "texto";
+const minhavar = "3";
+const MINHAVAR = 2;
+
+console.log(minhaVar, MinhaVar, minhavar, MINHAVAR)
+
+// tipo null e undefined
+
+let input4 = null;
+
+if (input4 === null) {
+ console.log('não há informação');
+} else {
+ console.log(input4);
+}
+
+let input5 = null;
+let input2;
+
+console.log(input5); // null
+console.log(input2); // undefined
+
+console.log(null == undefined); // true
+console.log(null === undefined); // false
