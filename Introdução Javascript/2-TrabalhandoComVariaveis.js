@@ -87,3 +87,31 @@ console.log(input2); // undefined
 
 console.log(null == undefined); // true
 console.log(null === undefined); // false
+
+// var
+//var altura  = 5;
+//var comprimento = 7;
+//var area = altura * comprimento;
+//console.log(area);
+
+// let
+
+let forma = "retangulo";
+let alturaR = 2;
+let comprimentoR = 7;
+let areaR;
+
+if (forma === "retângulo") {
+    areaR = alturaR * comprimentoR;
+}   else {
+    areaR = (alturaR * comprimentoR) / 2;
+}
+console.log(areaR);
+
+//const
+
+const formaQ = "quadrado";
+const ladoQ = 4;
+const areaQ = ladoQ ** 2;
+console.log(areaQ);
+
