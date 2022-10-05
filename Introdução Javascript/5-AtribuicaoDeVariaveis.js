@@ -1,6 +1,6 @@
 console.log("Trabalhando com atribuição de variáveis");
-const idade = 29; //const não varia
-let nome = "Ricardo"; // let varia
+const idade = 29; //const não varia, já let varia
+let nome = "Ricardo"; 
 let sobrenome = "Bugan";
 
 console.log(nome + sobrenome);
