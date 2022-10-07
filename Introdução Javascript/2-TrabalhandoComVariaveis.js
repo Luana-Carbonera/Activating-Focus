@@ -99,3 +99,17 @@ console.log(input2); // undefined
 
 console.log(null == undefined); // true
 console.log(null === undefined); // false
+
+
+// template string
+
+const nome1 = "Luana";
+const idade1 = 2022-2004;
+const cidade1 = "Santiago";
+
+// const apresentacao = "meu nome é " + nome1 + ", minha idade é " + idade1 + "
+// e nasci na cidade de " + cidade1;
+// console.log(apresentacao)
+
+const apresentacao = `meu nome é ${nome1}, tenho ${idade1} anos e nasci na cidade de ${cidade1}`;
+console.log(apresentacao);
