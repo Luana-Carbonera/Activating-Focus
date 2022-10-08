@@ -68,3 +68,12 @@ function operacaoMatematica(numero1, numero2, numero3) {
    }
    
 console.log(operacaoMatematica(15, 30, 45)) // 90
+
+// expressão de função
+
+const somar = function(num1, num2) {return num1 + num2}
+console.log(somar(1, 1));
+
+//arrow function
+
+const apresentarArrow = nomeArrow => `meu nome é ${nomeArrow}`;
