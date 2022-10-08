@@ -34,3 +34,37 @@ console.log(soma());
     return numero1 * numero2;
  }
  console.log(multiplicacao(subtracao(12, 2), subtracao(4,1)));
+
+ // função sem paramêtros
+
+ function cumprimentar(){
+    console.log('oi gente!')
+   }
+   
+   cumprimentar()
+
+// função sem return
+
+function cumprimentaPessoa(pessoa){
+    console.log(`oi, ${pessoa}!`)
+   }
+   
+   cumprimentaPessoa('Helena')
+
+   function cumprimentar(){
+    return 'Oi gente!'
+   }
+   
+   function cumprimentaPessoa(nomePessoa) {
+    console.log(`${cumprimentar()} Meu nome é ${nomePessoa}`)
+   }
+   
+   cumprimentaPessoa('Paula') // “Oi gente! Meu nome é Paula”
+
+// vários parâmetros
+
+function operacaoMatematica(numero1, numero2, numero3) {
+    return numero1 + numero2 + numero3
+   }
+   
+console.log(operacaoMatematica(15, 30, 45)) // 90
