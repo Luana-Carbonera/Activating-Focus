@@ -64,3 +64,26 @@ const sala2 = nomes.slice(nomes.length/2);
 
 console.log(sala1);
 console.log(sala2);
+
+const listaDeChamada = ["joão", "Ana", "Caio", "Lara", "Marjorie", "Leo"];
+// splice() - 3 parametros, indice para começar, quantos queremos remover,
+// e se queremos substituir por outro termo.
+listaDeChamada.splice(1, 2, "Rodrigo");
+console.log(listaDeChamada);
+
+//listaDeChamada.splice(2,0,"Rodrigo") - nesse caso,
+//Rodrigo seria adicionado após Caio, que é o indice 2 (nada seria retirado)
+
+// concatenando arrays
+const salasUnificadas = sala1.concat(sala2);
+console.log(salasUnificadas);
+
+//Matrizes
+
+const alunos = ["joão", "juliana", "Ana", "Caio"];
+const mediasDosAlunos = [10,7,9,6];
+
+let listaDeNotasEAlunos = [alunos, mediasDosAlunos];
+
+console.log(`${listaDeNotasEAlunos[0][0]}, sua média é ${listaDeNotasEAlunos [1] [0]}`);
+console.log(listaDeNotasEAlunos);
