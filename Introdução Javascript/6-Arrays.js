@@ -87,3 +87,15 @@ let listaDeNotasEAlunos = [alunos, mediasDosAlunos];
 
 console.log(`${listaDeNotasEAlunos[0][0]}, sua média é ${listaDeNotasEAlunos [1] [0]}`);
 console.log(listaDeNotasEAlunos);
+
+const exibeNomeNota = (nomeDoAluno) => {
+    if (listaDeNotasEAlunos[0].includes(nomeDoAluno)){
+        let indice = listaDeNotasEAlunos[0].indexOf(nomeDoAluno)
+        return listaDeNotasEAlunos[0][indice] + " sua média é " + listaDeNotasEAlunos[1][indice];
+    } else {
+        return "Aluno não está cadastrado"
+    }
+}
+
+console.log(exibeNomeNota("Ana"));
+console.log(exibeNomeNota("joana"));
