@@ -24,3 +24,29 @@ const notas = [
 let media = (notas[0] + notas[1] + notas[2] + notas[3]) / notas.length;
 
 console.log(media);
+
+// adicionando elementos a um array
+
+notas.push(7);
+console.log(notas);
+
+let media2 = (notas[0] + notas[1] + notas[2] + notas[3] + notas[4]) / notas.length;
+console.log(media2);
+
+const arrayVazia = [];
+
+console.log(arrayVazia)
+console.log(arrayVazia.length)
+
+let jantar = [
+    '🍔', '🌭', '🍕'
+];
+
+jantar.pop()
+jantar.pop()
+
+jantar.push('🍳')
+jantar.push('🥗')
+jantar.push('🍏')
+
+console.log(jantar)
